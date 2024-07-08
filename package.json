@@ -1,0 +1,28 @@
+{
+  "name": "sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --noEmit false",
+    "listen": "ts-node src/listener.ts",
+    "worker-dca": "ts-node src/workers/worker-dca.ts",
+    "worker-limit": "ts-node src/workers/worker-limit.ts"
+  },
+  "author": "Akbar Idria",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.1",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@chainflip/sdk": "^1.4.2",
+    "@supabase/ssr": "^0.4.0",
+    "@supabase/supabase-js": "^2.44.3",
+    "bullmq": "^5.8.4"
+  }
+}
