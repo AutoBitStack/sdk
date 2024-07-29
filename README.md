@@ -1,6 +1,6 @@
 # AutoBitStack
 
-AutoBitStack is a cryptocurrency investment platform that allows users to invest in Bitcoin using Dollar-Cost Averaging (DCA) and limit orders.
+AutoBitStack is a cryptocurrency investment platform that allows users to invest in Bitcoin using Dollar-Cost Averaging (DCA) and limit orders. We leverage Chainflip's cross-chain liquidity to execute trades efficiently and securely.
 
 ## Overview
 - [View Smart Contract Here](https://github.com/AutoBitStack/sdk/blob/main/src/AutoBitStack.sol)
