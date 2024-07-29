@@ -2,7 +2,7 @@ import { Assets } from "@chainflip/sdk/swap";
 import "dotenv/config";
 
 export const RPC = "https://ethereum-sepolia-rpc.publicnode.com"
-export const HUB_CONTRACT = "0xB34CAF81D30D945B7E1930991d49B8577A4dCdC8";
+export const HUB_CONTRACT = "0x6a40a5BC13E374b0Ae02fFF6A672138c695C7e66";
 export const ZERO_ADDRESS = "0x0000000000000000000000000000000000000000".toLowerCase();
 export const REDIS_CONNECTION = {
     host: process.env.REDIS_HOST as string,
